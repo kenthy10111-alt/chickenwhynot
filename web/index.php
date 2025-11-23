@@ -15,7 +15,7 @@ require_once __DIR__ . '/includes/auth.php';
   <header class="site-header">
     <div class="container header-row">
   <a class="brand" href="#">
-    <img src="/web/LOGO/Gemini_Generated_Image_n3a5yen3a5yen3a5-removebg-preview.png" alt="CHICKEN WHY NOT? logo" style="height:88px;vertical-align:middle;margin-right:15px;border-radius:6px;">
+    <img src="LOGO/Gemini_Generated_Image_n3a5yen3a5yen3a5-removebg-preview.png" alt="CHICKEN WHY NOT? logo" style="height:88px;vertical-align:middle;margin-right:15px;border-radius:6px;">
     <span>CHICKEN WHY NOT?</span>
   </a>
     <nav class="main-nav">
@@ -25,9 +25,9 @@ require_once __DIR__ . '/includes/auth.php';
     </nav>
     <div class="header-actions" style="margin-left:auto;display:flex;align-items:center;gap:0.6rem;">
   <?php if (function_exists('is_logged_in') && is_logged_in()): ?>
-    <a href="/web/auth/login.php" onclick="logout()" class="btn" style="text-decoration:none;padding:.45rem .9rem;">Logout</a>
+    <a href="auth/login.php" onclick="logout()" class="btn" style="text-decoration:none;padding:.45rem .9rem;">Logout</a>
   <?php else: ?>
-    <a href="/web/auth/login.php" class="btn" style="text-decoration:none;padding:.45rem .9rem;">Login</a>
+    <a href="auth/login.php" class="btn" style="text-decoration:none;padding:.45rem .9rem;">Login</a>
   <?php endif; ?>
       <div class="cart-wrap">
         <button id="cartBtn" class="cart-btn" aria-label="View cart">
